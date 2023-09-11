@@ -1,1 +1,1 @@
-hello printf
+6-size.c
