@@ -1,1 +1,1 @@
-100-intel
+print quote
