@@ -1,25 +1,16 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
-void print_most_numbers(void)
+*print_numbers - print 0123456789
+*Return: void
+*/
+void print_numbers(void)
 {
-	int i = 0;
+	char c;
 
-	for (; i <= 9; i++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		if (i == 2 || i == 4)
-		{
-			continue;
-		}
-		else
-		{
-			_putchar(i + '0');
-		}
+	_putchar(c);
 	}
-
 	_putchar('\n');
 }
