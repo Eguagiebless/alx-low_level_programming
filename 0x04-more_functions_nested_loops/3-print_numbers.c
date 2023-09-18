@@ -1,12 +1,27 @@
 #include "main.h"
 
 /**
- * main - check the code for Holberton School students.
+ * print_most_numbers - Prints 0-9 leaving out 2 and 4.
  *
- * Return: Always 0.
+ * Return: 0-9
+ *
  */
-int main(void)
+
+void print_most_numbers(void)
 {
-    print_numbers();
-    return (0);
+	int i = 0;
+
+	for (; i <= 9; i++)
+	{
+		if (i == 2 || i == 4)
+		{
+			continue;
+		}
+		else
+		{
+			_putchar(i + '0');
+		}
+	}
+
+	_putchar('\n');
 }
