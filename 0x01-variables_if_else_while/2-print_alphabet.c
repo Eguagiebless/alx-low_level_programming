@@ -5,9 +5,10 @@
  * Return: 0  success
  */
 
-int main (void)
+int main(void)
 {
 	char lowerCase_alphabet;
+
 	lowerCase_alphabet = 'a';
 
 	while (lowerCase_alphabet <= 'z')
