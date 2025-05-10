@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - generate random intergers and determine if the number is postive, negative or zero.
+ * main - generate random intergers and determine
+ * if the number is postive, negative or zero.
  * Return: 0 on successful execution
  */
 
@@ -16,15 +17,15 @@ int main(void)
 
 	if (n > 0)
 	{
-		printf("%i: is positive\n", n);
+		printf("%i is positive\n", n);
 	}
 	else if (n ==  0)
 	{
-		printf("%i: is zero\n", n);
+		printf("%i is zero\n", n);
 	}
 	else
 	{
-		printf("%i: is negative\n", n);
+		printf("%i is negative\n", n);
 	}
 	return (0);
 }
