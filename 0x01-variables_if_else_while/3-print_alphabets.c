@@ -7,7 +7,7 @@
 int main(void)
 {
 	char lower_case = 'a';
-	chsr upper_case = 'A';
+	char upper_case = 'A';
 
 	while (lower_case <= 'z')
 	{
@@ -21,5 +21,5 @@ int main(void)
 		upper_case++;
 	}
 	putchar('\n');
-	return (o);
+	return (0);
 }
