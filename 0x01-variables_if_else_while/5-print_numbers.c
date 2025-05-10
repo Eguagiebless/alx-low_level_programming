@@ -11,7 +11,7 @@ int main(void)
 
 	while (base_ten < 10)
 	{
-		putchar(base_ten);
+		printf("%d", base_ten);
 		base_ten++;
 	}
 	putchar('\n');
