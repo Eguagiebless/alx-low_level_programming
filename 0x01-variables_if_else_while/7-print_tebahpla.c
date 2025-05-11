@@ -10,7 +10,7 @@ int main(void)
 {
 	int lower_case = 'z';
 
-	while(lower_case >= 'a')
+	while (lower_case >= 'a')
 	{
 		putchar(lower_case);
 		lower_case--;
