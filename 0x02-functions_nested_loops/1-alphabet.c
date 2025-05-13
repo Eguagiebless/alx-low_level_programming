@@ -10,7 +10,7 @@ void print_alphabet(void)
 
 	while (lowerCase_alphabet <= 'z')
 	{
-		putchar(lowerCase_alphabet);
+		_putchar(lowerCase_alphabet);
 		lowerCase_alphabet++;
 	}
-	putchar('\n');
+	_putchar('\n');
