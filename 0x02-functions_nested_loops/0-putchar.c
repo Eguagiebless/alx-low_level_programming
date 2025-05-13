@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char print[] = _putchar;
+	char print[] = "_putchar";
 	int i = 0;
 
 	while (print[i] != '\o')
